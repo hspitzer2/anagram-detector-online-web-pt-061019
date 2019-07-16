@@ -2,12 +2,12 @@ class Anagram
 
 attr_accessor :word
 
-  def initialize
+  def initialize(word)
     @word = word
   end
 
-  def match(list_0f_words)
-    (@word.split("").sort == list-of_words.split("").sort)
+  def match(list_of_words)
+    (@word.split("").sort == list_of_words.split("").sort)
    end
 end
 
