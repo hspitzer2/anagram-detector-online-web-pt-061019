@@ -6,8 +6,8 @@ attr_accessor :word
     @word = word
   end
 
-  def match(w)
-    (@word.split("").sort == w.split("").sort)
+  def match(list_0f_words)
+    (@word.split("").sort == list-of_words.split("").sort)
    end
   end
 
